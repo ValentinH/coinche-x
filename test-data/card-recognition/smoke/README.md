@@ -1,6 +1,6 @@
 # Corpus smoke Coinche — 2026-07-29
 
-20 photos originales sur table noire :
+20 photos originales sur un sol en parquet marron foncé :
 
 - OnePlus 11 5G et Xiaomi Pad 6
 - jeux à coins `J/Q/K` et `V/D/R`
@@ -16,6 +16,8 @@ les couleurs `C D H S` (trèfle, carreau, cœur, pique). Pour le jeu français,
 Les listes ont été transcrites depuis les coins visibles puis croisées entre les
 deux appareils. Le code EXIF Flash `16` indique que le flash n’a pas été
 déclenché.
+
+Le fond réel diffère du protocole initial, qui prévoyait une table noire.
 
 Ce corpus est réservé au smoke test. Il est exclu de tout entraînement ou
 fine-tuning initial.

@@ -3,6 +3,11 @@
   "corpusId": "coinche-smoke-2026-07-29",
   "createdAt": "2026-07-29",
   "trainingPolicy": "excluded_from_all_initial_training_and_fine_tuning",
+  "captureConditions": {
+    "surface": "dark_brown_parquet_floor",
+    "flash": "did_not_fire",
+    "protocolDeviation": "surface_differs_from_initial_black_table_protocol"
+  },
   "cardNotation": {
     "ranks": ["7", "8", "9", "10", "J", "Q", "K", "A"],
     "suits": {
