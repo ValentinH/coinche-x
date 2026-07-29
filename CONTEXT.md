@@ -47,7 +47,7 @@ Une suite ou un carré déclaré pendant la manche et susceptible d’accorder u
 _Avoid_: Enchère
 
 **Belote**:
-Le bonus de 20 points associé au Roi et à la Dame d’une couleur d’atout.
+Le bonus de 20 points associé au Roi et à la Dame d’une même couleur d’atout. Il n’existe pas en Sans Atout et peut être multiple en Tout Atout, une fois par couleur.
 _Avoid_: Annonce
 
 **Capot**:
