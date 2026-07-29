@@ -489,10 +489,46 @@ button.selected {
   font-size: 11px;
 }
 
-.card-grid {
+.trick-list {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.trick-group {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 8px;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid #dce2dd;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 50%);
+}
+
+.trick-label {
+  color: #68766e;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.trick-label small {
+  display: block;
+  margin-top: 2px;
+  color: #b06721;
+  font-size: 7px;
+}
+
+.trick-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 4px;
+}
+
+.trick-list.compact {
+  max-height: 310px;
+  overflow: auto;
 }
 
 .mini-card {
@@ -765,18 +801,15 @@ button.selected {
   box-shadow: 0 0 0 5px rgb(101 213 148 / 10%);
 }
 
-.card-fan {
-  display: flex;
-  min-height: 64px;
-  padding-left: 6px;
+.dashboard-shell .trick-group,
+.table-shell .trick-group {
+  border-color: rgb(255 255 255 / 13%);
+  background: rgb(255 255 255 / 5%);
 }
 
-.card-fan .mini-card {
-  width: 43px;
-  min-width: 43px;
-  margin-left: -6px;
-  transform: rotate(calc((var(--index) - 3) * 1.4deg));
-  transform-origin: bottom center;
+.dashboard-shell .trick-label,
+.table-shell .trick-label {
+  color: #aebdb5;
 }
 
 .dashboard-commit {
@@ -1141,7 +1174,4 @@ button.selected {
     top: 4px;
   }
 
-  .card-grid {
-    grid-template-columns: repeat(8, 1fr);
-  }
 }

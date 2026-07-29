@@ -457,7 +457,7 @@ function VariantC({ game, api }) {
         {game.phase === "review" && (
           <>
             <h1>{game.detectedCards.length / 4 || 0} plis détectés</h1>
-            <CardFan cards={game.detectedCards.slice(0, 8)} />
+            <CardGrid cards={game.detectedCards} compact />
             <div className="review-toolbar">
               <button onClick={api.removeCard}>− carte</button>
               <button onClick={api.addCard}>+ carte</button>
@@ -764,7 +764,7 @@ function CompactReview({ game, api }) {
         <strong>{game.detectedCards.length} cartes reconnues</strong>
         <span>{game.corrections ? `${game.corrections} corrigée(s)` : "Prêt"}</span>
       </div>
-      <CardFan cards={game.detectedCards.slice(0, 6)} />
+      <CardGrid cards={game.detectedCards} compact />
       <div className="quick-row">
         <button onClick={api.removeCard}>− carte</button>
         <button onClick={api.addCard}>+ carte</button>
@@ -851,25 +851,29 @@ function BigAction({ children, ...props }) {
   );
 }
 
-function CardGrid({ cards }) {
+function CardGrid({ cards, compact = false }) {
   if (cards.length === 0) {
     return <div className="empty-cards">Aucune carte · aucun pli</div>;
   }
-  return (
-    <div className="card-grid">
-      {cards.map((card, index) => (
-        <MiniCard card={card} key={`${card}-${index}`} />
-      ))}
-    </div>
+  const tricks = Array.from(
+    { length: Math.ceil(cards.length / 4) },
+    (_, index) => cards.slice(index * 4, index * 4 + 4),
   );
-}
 
-function CardFan({ cards }) {
-  if (cards.length === 0) return null;
   return (
-    <div className="card-fan">
-      {cards.map((card, index) => (
-        <MiniCard card={card} key={`${card}-${index}`} style={{ "--index": index }} />
+    <div className={`trick-list ${compact ? "compact" : ""}`}>
+      {tricks.map((trick, trickIndex) => (
+        <div className="trick-group" key={`trick-${trickIndex}`}>
+          <span className="trick-label">
+            Pli {trickIndex + 1}
+            {trick.length < 4 && <small>incomplet</small>}
+          </span>
+          <div className="trick-cards">
+            {trick.map((card, cardIndex) => (
+              <MiniCard card={card} key={`${card}-${trickIndex}-${cardIndex}`} />
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   );
