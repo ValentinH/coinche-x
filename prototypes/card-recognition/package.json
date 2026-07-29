@@ -1,0 +1,20 @@
+{
+  "name": "coinche-card-recognition-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "benchmark:ocr": "node src/benchmark-ocr.mjs",
+    "benchmark:paddle:serve": "vite --config vite.config.mjs --host 127.0.0.1 --port 4174 --strictPort",
+    "benchmark:knn:prepare": "node src/prepare-fvannee-model.mjs",
+    "benchmark:knn:serve": "pnpm benchmark:knn:prepare && vite --config vite.config.mjs --host 127.0.0.1 --port 4175 --strictPort"
+  },
+  "dependencies": {
+    "@paddlejs-models/ocr": "1.2.4",
+    "@techstark/opencv-js": "5.0.0-release.1",
+    "sharp": "0.35.3",
+    "tesseract.js": "7.0.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.5"
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benchmark KNN cartes</title>
+    <script>
+      globalThis.benchmarkNavigationStartedAt = performance.now();
+    </script>
+    <script type="module" src="./src/benchmark-knn-browser.mjs"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Benchmark KNN + OpenCV.js</h1>
+      <p id="status">Initialisation…</p>
+      <pre id="results"></pre>
+      <img id="source" alt="" hidden />
+    </main>
+  </body>
+</html>
