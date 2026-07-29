@@ -58,7 +58,7 @@ for (const image of images) {
     .toUpperCase()
     .match(/10|[789AJQKVDR]/g)
     ?.map((rank) => normalizeRank(rank)) ?? [];
-  const expectedCards = manifest.cardSets[image.cardSet];
+  const expectedCards = image.cards;
   const expectedRanks = expectedCards.map((card) =>
     normalizeRank(card.slice(0, -1)),
   );

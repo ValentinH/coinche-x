@@ -13,9 +13,9 @@ Les identifiants de cartes utilisent les rangs canoniques `7 8 9 10 J Q K A` et
 les couleurs `C D H S` (trèfle, carreau, cœur, pique). Pour le jeu français,
 `V/D/R` est normalisé en `J/Q/K`.
 
-Les listes ont été transcrites depuis les coins visibles puis croisées entre les
-deux appareils. Le code EXIF Flash `16` indique que le flash n’a pas été
-déclenché.
+Chaque liste `cards` a été transcrite visuellement depuis sa propre image, sans
+supposer que les combinaisons sont identiques entre appareils. Le code EXIF
+Flash `16` indique que le flash n’a pas été déclenché.
 
 Le fond réel diffère du protocole initial, qui prévoyait une table noire.
 

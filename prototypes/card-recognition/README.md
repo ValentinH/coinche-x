@@ -8,6 +8,12 @@ précise pour éviter l'entraînement d'un modèle spécialisé ?
 Le corpus `test-data/card-recognition/smoke` sert ici au développement exploratoire.
 Les résultats ne constituent pas une validation indépendante.
 
+```sh
+pnpm --dir prototypes/card-recognition validate:manifest
+```
+
+Cette validation impose une liste `cards` propre à chaque image.
+
 ## Baseline Tesseract.js
 
 ```sh
@@ -40,12 +46,12 @@ Puis ouvrir
 
 | Candidat | Résultat smoke | Latence observée | Verdict |
 | --- | --- | --- | --- |
-| Tesseract.js brut | 0/20 exactes ; précision rang 69,8 % ; rappel rang 57,1 % | 345 ms moyenne, 701 ms max sur Mac | rejet |
+| Tesseract.js brut | 0/20 exactes ; précision rang 72,0 % ; rappel rang 58,9 % | 350 ms moyenne, 714 ms max sur Mac | rejet |
 | PaddleJS OCR | 0/4 rang sur la première photo | 13,2 s chargement ; 1,5 s photo | arrêt anticipé |
-| KNN fvannee + OpenCV.js | 5/20 exactes ; précision carte 92,1 % ; rappel carte 34,8 % | 407 ms moyenne, 490 ms max sur Mac | meilleur candidat, précision insuffisante |
+| KNN fvannee + OpenCV.js | 6/20 exactes ; précision carte 99,2 % ; rappel carte 37,5 % | 427 ms moyenne, 721 ms max sur Mac | meilleur candidat, rappel insuffisant |
 
-Le KNN obtient 5/10 photos exactes sur le jeu `J/Q/K` (précision 94,0 %,
-rappel 64,9 %) et 0/10 sur le jeu `V/D/R` (précision 72,7 %, rappel 4,8 %).
+Le KNN obtient 6/10 photos exactes sur le jeu `J/Q/K` (précision 100 %,
+rappel 69,0 %) et 0/10 sur le jeu `V/D/R` (précision 90,9 %, rappel 6,0 %).
 Trois gabarits `V/D/R` CC0, puis trois gabarits calibrés sur une photo smoke,
 n'améliorent pas matériellement ce second jeu.
 

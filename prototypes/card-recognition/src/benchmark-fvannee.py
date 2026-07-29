@@ -481,7 +481,7 @@ def main():
             color_image,
         )
         elapsed_ms = round((time.perf_counter() - started_at) * 1000)
-        expected_cards = manifest["cardSets"][image["cardSet"]]
+        expected_cards = image["cards"]
         score = score_cards(cards, expected_cards)
         result = {
             "file": image["file"],

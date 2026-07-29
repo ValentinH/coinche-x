@@ -35,7 +35,7 @@ for (const image of images) {
   const startedAt = performance.now();
   const detection = detectCards(source, cv, model);
   const elapsedMs = Math.round(performance.now() - startedAt);
-  const expectedCards = manifest.cardSets[image.cardSet];
+  const expectedCards = image.cards;
   const score = scoreCards(detection.cards, expectedCards);
   const result = {
     file: image.file,

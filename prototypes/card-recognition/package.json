@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "validate:manifest": "node src/validate-manifest.mjs",
     "benchmark:ocr": "node src/benchmark-ocr.mjs",
     "benchmark:paddle:serve": "vite --config vite.config.mjs --host 127.0.0.1 --port 4174 --strictPort",
     "benchmark:knn:prepare": "node src/prepare-fvannee-model.mjs",

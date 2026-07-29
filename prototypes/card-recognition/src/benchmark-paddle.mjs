@@ -35,7 +35,7 @@ for (const image of images) {
   const tokens = recognition.text
     .flatMap((text) => text.toUpperCase().match(/10|[789AJQKVDR]/g) ?? [])
     .map(normalizeRank);
-  const expectedCards = manifest.cardSets[image.cardSet];
+  const expectedCards = image.cards;
   const expectedRanks = expectedCards.map((card) =>
     normalizeRank(card.slice(0, -1)),
   );
