@@ -1,0 +1,16 @@
+{
+  "name": "coinche-x-prototypes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prototype": "vite --config prototypes/mobile-round-flow/vite.config.js"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "latest",
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  }
+}
