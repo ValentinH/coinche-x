@@ -1,0 +1,2379 @@
+{
+  "schemaVersion": 1,
+  "split": "train",
+  "seed": "coinche-train-v1",
+  "width": 1536,
+  "height": 2048,
+  "source": {
+    "id": "andrew-tidey-cards-pack",
+    "role": "training",
+    "path": "training/sources/andrew-tidey"
+  },
+  "generator": {
+    "version": 1,
+    "compositor": "affine-card-scenes",
+    "annotations": "two-visible-corner-indices",
+    "minimumVisibleFraction": 0.52
+  },
+  "coverage": {
+    "canonicalCards": [
+      "10-diamonds",
+      "10-hearts",
+      "10-spades",
+      "7-diamonds",
+      "7-spades",
+      "8-spades",
+      "9-diamonds",
+      "9-hearts",
+      "9-spades",
+      "A-clubs",
+      "A-diamonds",
+      "A-hearts",
+      "A-spades",
+      "J-clubs",
+      "J-hearts",
+      "K-diamonds",
+      "K-hearts",
+      "K-spades",
+      "Q-clubs",
+      "Q-diamonds",
+      "Q-hearts",
+      "Q-spades"
+    ],
+    "glyphs": [
+      "10",
+      "7",
+      "8",
+      "9",
+      "A",
+      "D",
+      "J",
+      "K",
+      "Q",
+      "R",
+      "V"
+    ],
+    "suits": [
+      "clubs",
+      "diamonds",
+      "hearts",
+      "spades"
+    ]
+  },
+  "frames": [
+    {
+      "image": "images/00000.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 1,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 1,
+          "instanceId": "0-0-9-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 569.8626103740513,
+            "y": 829.0233923773596,
+            "width": 158.83897604978677,
+            "height": 162.54016827875296
+          },
+          "polygon": [
+            {
+              "x": 630.3873696358519,
+              "y": 991.5635606561126
+            },
+            {
+              "x": 569.8626103740513,
+              "y": 936.4424873524428
+            },
+            {
+              "x": 668.1768271620374,
+              "y": 829.0233923773596
+            },
+            {
+              "x": 728.7015864238381,
+              "y": 884.1444656810295
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "spades"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-spades.png",
+          "sourceSha256": "8cffbb16ceb2f00140642383c9a722402a3b625ce439e6941d45a7d4281e2208"
+        },
+        {
+          "id": 2,
+          "instanceId": "0-0-9-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 589.00834497473,
+            "y": 496.31620964079093,
+            "width": 158.83897604978677,
+            "height": 162.54016827875307
+          },
+          "polygon": [
+            {
+              "x": 649.5331042365306,
+              "y": 658.856377919544
+            },
+            {
+              "x": 589.00834497473,
+              "y": 603.735304615874
+            },
+            {
+              "x": 687.3225617627161,
+              "y": 496.31620964079093
+            },
+            {
+              "x": 747.8473210245168,
+              "y": 551.4372829444608
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "spades"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-spades.png",
+          "sourceSha256": "8cffbb16ceb2f00140642383c9a722402a3b625ce439e6941d45a7d4281e2208"
+        }
+      ]
+    },
+    {
+      "image": "images/00001.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 2,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 3,
+          "instanceId": "1-0-J-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 1270.4974668811437,
+            "y": 1194.6644689052828,
+            "width": 127.05425898140288,
+            "height": 196.93005026598644
+          },
+          "polygon": [
+            {
+              "x": 1384.8470444692905,
+              "y": 1391.5945191712692
+            },
+            {
+              "x": 1270.4974668811437,
+              "y": 1389.7449823926156
+            },
+            {
+              "x": 1283.2021482743999,
+              "y": 1194.6644689052828
+            },
+            {
+              "x": 1397.5517258625466,
+              "y": 1196.5140056839364
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 4,
+          "instanceId": "1-0-J-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 999.0417961948726,
+            "y": 843.0987154334865,
+            "width": 127.05425898140265,
+            "height": 196.93005026598632
+          },
+          "polygon": [
+            {
+              "x": 1113.3913737830194,
+              "y": 1040.0287656994728
+            },
+            {
+              "x": 999.0417961948726,
+              "y": 1038.1792289208192
+            },
+            {
+              "x": 1011.7464775881285,
+              "y": 843.0987154334865
+            },
+            {
+              "x": 1126.0960551762753,
+              "y": 844.9482522121401
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 5,
+          "instanceId": "1-1-7-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 651.8724223689246,
+            "y": 1095.1647797630476,
+            "width": 141.78287037014343,
+            "height": 155.62304439815853
+          },
+          "polygon": [
+            {
+              "x": 722.843073352163,
+              "y": 1095.1647797630476
+            },
+            {
+              "x": 793.655292739068,
+              "y": 1129.7561740290455
+            },
+            {
+              "x": 722.6846417558297,
+              "y": 1250.7878241612061
+            },
+            {
+              "x": 651.8724223689246,
+              "y": 1216.1964298952082
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "7",
+            "suit": "spades"
+          },
+          "glyph": "7",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/7-spades.png",
+          "sourceSha256": "045d87eba58f5a8c865a19cc53731c44218415dcfe04848caba27002a457126e"
+        },
+        {
+          "id": 6,
+          "instanceId": "1-1-7-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 707.7909403142569,
+            "y": 1399.2814573169148,
+            "width": 141.78287037014354,
+            "height": 155.6230443981583
+          },
+          "polygon": [
+            {
+              "x": 778.7615912974953,
+              "y": 1399.2814573169148
+            },
+            {
+              "x": 849.5738106844004,
+              "y": 1433.8728515829125
+            },
+            {
+              "x": 778.6031597011621,
+              "y": 1554.9045017150731
+            },
+            {
+              "x": 707.7909403142569,
+              "y": 1520.3131074490755
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "7",
+            "suit": "spades"
+          },
+          "glyph": "7",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/7-spades.png",
+          "sourceSha256": "045d87eba58f5a8c865a19cc53731c44218415dcfe04848caba27002a457126e"
+        }
+      ]
+    },
+    {
+      "image": "images/00002.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 3,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 7,
+          "instanceId": "2-0-Q-clubs",
+          "corner": "top-left",
+          "bbox": {
+            "x": 1234.3824826663922,
+            "y": 407.66287466970334,
+            "width": 158.58721757920785,
+            "height": 174.0035381557617
+          },
+          "polygon": [
+            {
+              "x": 1336.0934709739845,
+              "y": 407.66287466970334
+            },
+            {
+              "x": 1392.9697002456,
+              "y": 472.0402912177633
+            },
+            {
+              "x": 1291.2587119380078,
+              "y": 581.666412825465
+            },
+            {
+              "x": 1234.3824826663922,
+              "y": 517.2889962774051
+            }
+          ],
+          "visibleFraction": 0.673469387755102,
+          "card": {
+            "rank": "Q",
+            "suit": "clubs"
+          },
+          "glyph": "Q",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/Q-clubs.png",
+          "sourceSha256": "58bf36872f8ad2414907c474253c0c090f9fb1a28de4c467dec54b999ab28e46"
+        },
+        {
+          "id": 8,
+          "instanceId": "2-0-Q-clubs",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1199.8161088814936,
+            "y": 768.0956857942796,
+            "width": 158.58721757920785,
+            "height": 174.0035381557617
+          },
+          "polygon": [
+            {
+              "x": 1301.527097189086,
+              "y": 768.0956857942796
+            },
+            {
+              "x": 1358.4033264607015,
+              "y": 832.4731023423395
+            },
+            {
+              "x": 1256.6923381531092,
+              "y": 942.0992239500413
+            },
+            {
+              "x": 1199.8161088814936,
+              "y": 877.7218074019813
+            }
+          ],
+          "visibleFraction": 0.8775510204081632,
+          "card": {
+            "rank": "Q",
+            "suit": "clubs"
+          },
+          "glyph": "Q",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/Q-clubs.png",
+          "sourceSha256": "58bf36872f8ad2414907c474253c0c090f9fb1a28de4c467dec54b999ab28e46"
+        },
+        {
+          "id": 9,
+          "instanceId": "2-1-Q-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 1189.3311449023674,
+            "y": 603.1599842899795,
+            "width": 135.62097806894076,
+            "height": 221.1336819460547
+          },
+          "polygon": [
+            {
+              "x": 1324.9521229713082,
+              "y": 805.8370195978833
+            },
+            {
+              "x": 1210.607766726442,
+              "y": 824.2936662360343
+            },
+            {
+              "x": 1189.3311449023674,
+              "y": 621.6166309281305
+            },
+            {
+              "x": 1303.6755011472337,
+              "y": 603.1599842899795
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "Q",
+            "suit": "hearts"
+          },
+          "glyph": "D",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/Q-hearts.png",
+          "sourceSha256": "b81458cd1d1eebf981bd5a990899a571844296ac647203737394ebabd4d4ef57"
+        },
+        {
+          "id": 10,
+          "instanceId": "2-1-Q-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 857.4776948076898,
+            "y": 290.3052033518085,
+            "width": 135.62097806894087,
+            "height": 221.1336819460547
+          },
+          "polygon": [
+            {
+              "x": 993.0986728766306,
+              "y": 492.9822386597123
+            },
+            {
+              "x": 878.7543166317644,
+              "y": 511.4388852978632
+            },
+            {
+              "x": 857.4776948076898,
+              "y": 308.7618499899594
+            },
+            {
+              "x": 971.8220510525562,
+              "y": 290.3052033518085
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "Q",
+            "suit": "hearts"
+          },
+          "glyph": "D",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/Q-hearts.png",
+          "sourceSha256": "b81458cd1d1eebf981bd5a990899a571844296ac647203737394ebabd4d4ef57"
+        },
+        {
+          "id": 11,
+          "instanceId": "2-2-K-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 937.8809821912301,
+            "y": 1154.1525661245032,
+            "width": 95.85137909340267,
+            "height": 153.52470026228093
+          },
+          "polygon": [
+            {
+              "x": 1020.4920796073762,
+              "y": 1307.6772663867841
+            },
+            {
+              "x": 937.8809821912301,
+              "y": 1299.9578185394823
+            },
+            {
+              "x": 951.1212638684867,
+              "y": 1154.1525661245032
+            },
+            {
+              "x": 1033.7323612846328,
+              "y": 1161.8720139718048
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        },
+        {
+          "id": 12,
+          "instanceId": "2-2-K-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 748.9907245156282,
+            "y": 875.093219747669,
+            "width": 95.85137909340256,
+            "height": 153.52470026228104
+          },
+          "polygon": [
+            {
+              "x": 831.6018219317743,
+              "y": 1028.61792000995
+            },
+            {
+              "x": 748.9907245156282,
+              "y": 1020.8984721626482
+            },
+            {
+              "x": 762.2310061928847,
+              "y": 875.093219747669
+            },
+            {
+              "x": 844.8421036090308,
+              "y": 882.8126675949707
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        }
+      ]
+    },
+    {
+      "image": "images/00003.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 4,
+      "mode": "fan",
+      "annotations": [
+        {
+          "id": 13,
+          "instanceId": "3-0-K-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 451.9353080340459,
+            "y": 821.5822717299617,
+            "width": 142.72744571321243,
+            "height": 132.4360344346436
+          },
+          "polygon": [
+            {
+              "x": 541.1070695743834,
+              "y": 821.5822717299617
+            },
+            {
+              "x": 594.6627537472583,
+              "y": 868.1488264492058
+            },
+            {
+              "x": 505.49099220692074,
+              "y": 954.0183061646053
+            },
+            {
+              "x": 451.9353080340459,
+              "y": 907.4517514453612
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "hearts"
+          },
+          "glyph": "R",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/K-hearts.png",
+          "sourceSha256": "99285ee378e8fd68f620ed574990d93c81294732c9d45b3eb6a0eab547d004aa"
+        },
+        {
+          "id": 14,
+          "instanceId": "3-1-10-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 445.6021793318302,
+            "y": 1327.4598734315243,
+            "width": 168.4976610300102,
+            "height": 138.1326612286523
+          },
+          "polygon": [
+            {
+              "x": 490.57962259460817,
+              "y": 1465.5925346601766
+            },
+            {
+              "x": 445.6021793318302,
+              "y": 1396.3256842037742
+            },
+            {
+              "x": 569.1223970990624,
+              "y": 1327.4598734315243
+            },
+            {
+              "x": 614.0998403618404,
+              "y": 1396.7267238879265
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "diamonds"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-diamonds.png",
+          "sourceSha256": "143b1ed466bcb8f8d4662fd92da4434b910c2359d21c3e0efb0add1d977ed976"
+        },
+        {
+          "id": 15,
+          "instanceId": "3-1-10-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 549.5373949089726,
+            "y": 1026.9170070755056,
+            "width": 168.49766103001025,
+            "height": 138.1326612286523
+          },
+          "polygon": [
+            {
+              "x": 594.5148381717506,
+              "y": 1165.0496683041579
+            },
+            {
+              "x": 549.5373949089726,
+              "y": 1095.7828178477557
+            },
+            {
+              "x": 673.0576126762048,
+              "y": 1026.9170070755056
+            },
+            {
+              "x": 718.0350559389829,
+              "y": 1096.183857531908
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "diamonds"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-diamonds.png",
+          "sourceSha256": "143b1ed466bcb8f8d4662fd92da4434b910c2359d21c3e0efb0add1d977ed976"
+        },
+        {
+          "id": 16,
+          "instanceId": "3-2-A-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 823.7858465229506,
+            "y": 1046.995781652139,
+            "width": 84.03061334580514,
+            "height": 109.09736558934037
+          },
+          "polygon": [
+            {
+              "x": 823.7858465229506,
+              "y": 1072.294420009324
+            },
+            {
+              "x": 870.6474475866587,
+              "y": 1046.995781652139
+            },
+            {
+              "x": 907.8164598687557,
+              "y": 1130.794508884294
+            },
+            {
+              "x": 860.9548588050477,
+              "y": 1156.0931472414793
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "hearts"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-hearts.png",
+          "sourceSha256": "8d3e1c25b6c71921f6998e2a9d358e91fa94dd490add79224f7dbf0b37252d2f"
+        },
+        {
+          "id": 17,
+          "instanceId": "3-3-10-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 836.4312523957393,
+            "y": 864.3984245642305,
+            "width": 120.42196671816191,
+            "height": 160.7902407847705
+          },
+          "polygon": [
+            {
+              "x": 836.4312523957393,
+              "y": 893.6994962154271
+            },
+            {
+              "x": 913.7193063761845,
+              "y": 864.3984245642305
+            },
+            {
+              "x": 956.8532191139012,
+              "y": 995.8875936978044
+            },
+            {
+              "x": 879.565165133456,
+              "y": 1025.188665349001
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "spades"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-spades.png",
+          "sourceSha256": "cf62a5414cb447b37c2164bdc0a287460e681db89c0948b76b2842de5488e495"
+        },
+        {
+          "id": 18,
+          "instanceId": "3-3-10-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1111.8544741648882,
+            "y": 1022.8113346509991,
+            "width": 120.42196671816191,
+            "height": 160.7902407847704
+          },
+          "polygon": [
+            {
+              "x": 1111.8544741648882,
+              "y": 1052.1124063021957
+            },
+            {
+              "x": 1189.1425281453335,
+              "y": 1022.8113346509991
+            },
+            {
+              "x": 1232.27644088305,
+              "y": 1154.300503784573
+            },
+            {
+              "x": 1154.988386902605,
+              "y": 1183.6015754357695
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "spades"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-spades.png",
+          "sourceSha256": "cf62a5414cb447b37c2164bdc0a287460e681db89c0948b76b2842de5488e495"
+        }
+      ]
+    },
+    {
+      "image": "images/00004.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 5,
+      "mode": "fan",
+      "annotations": [
+        {
+          "id": 19,
+          "instanceId": "4-0-A-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 344.99460165926763,
+            "y": 1087.7881391992591,
+            "width": 124.24301470247451,
+            "height": 125.80689637931891
+          },
+          "polygon": [
+            {
+              "x": 397.2079037984711,
+              "y": 1213.595035578578
+            },
+            {
+              "x": 344.99460165926763,
+              "y": 1176.1396832481773
+            },
+            {
+              "x": 417.0243142225387,
+              "y": 1087.7881391992591
+            },
+            {
+              "x": 469.23761636174214,
+              "y": 1125.2434915296599
+            }
+          ],
+          "visibleFraction": 0.9591836734693877,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        },
+        {
+          "id": 20,
+          "instanceId": "4-0-A-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 338.78464706459147,
+            "y": 834.404964421422,
+            "width": 124.24301470247451,
+            "height": 125.8068963793188
+          },
+          "polygon": [
+            {
+              "x": 390.9979492037949,
+              "y": 960.2118608007409
+            },
+            {
+              "x": 338.78464706459147,
+              "y": 922.7565084703401
+            },
+            {
+              "x": 410.8143596278625,
+              "y": 834.404964421422
+            },
+            {
+              "x": 463.027661767066,
+              "y": 871.8603167518228
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        },
+        {
+          "id": 21,
+          "instanceId": "4-1-Q-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 454.06115530353884,
+            "y": 1155.6331718568185,
+            "width": 134.20643923751254,
+            "height": 80.19647014306656
+          },
+          "polygon": [
+            {
+              "x": 458.62209170477576,
+              "y": 1235.829641999885
+            },
+            {
+              "x": 454.06115530353884,
+              "y": 1161.4591432324598
+            },
+            {
+              "x": 583.7066581398144,
+              "y": 1155.6331718568185
+            },
+            {
+              "x": 588.2675945410514,
+              "y": 1230.0036706242438
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "Q",
+            "suit": "diamonds"
+          },
+          "glyph": "Q",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/Q-diamonds.png",
+          "sourceSha256": "1e567e263dc47844779d0b919c7532ceabb719346231f7de493e1670b49ea455"
+        },
+        {
+          "id": 22,
+          "instanceId": "4-2-J-clubs",
+          "corner": "top-left",
+          "bbox": {
+            "x": 597.5527148679157,
+            "y": 1093.0684716606356,
+            "width": 115.86615971533638,
+            "height": 98.715502189586
+          },
+          "polygon": [
+            {
+              "x": 597.5527148679157,
+              "y": 1146.5517518248696
+            },
+            {
+              "x": 621.548314397091,
+              "y": 1093.0684716606356
+            },
+            {
+              "x": 713.4188745832521,
+              "y": 1138.3006936859877
+            },
+            {
+              "x": 689.4232750540768,
+              "y": 1191.7839738502216
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "clubs"
+          },
+          "glyph": "V",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/J-clubs.png",
+          "sourceSha256": "bb36df1007d4c28efd8189ce586a95ebd5cc8273234c8476ad1dffc7f4f0ca49"
+        },
+        {
+          "id": 23,
+          "instanceId": "4-3-9-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 903.9533544275145,
+            "y": 1157.5956539279423,
+            "width": 105.76428111589792,
+            "height": 121.6789843594529
+          },
+          "polygon": [
+            {
+              "x": 951.093228418925,
+              "y": 1157.5956539279423
+            },
+            {
+              "x": 1009.7176355434124,
+              "y": 1182.5570701777692
+            },
+            {
+              "x": 962.5777615520019,
+              "y": 1279.2746382873952
+            },
+            {
+              "x": 903.9533544275145,
+              "y": 1254.3132220375683
+            }
+          ],
+          "visibleFraction": 0.673469387755102,
+          "card": {
+            "rank": "9",
+            "suit": "hearts"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-hearts.png",
+          "sourceSha256": "5110498de5eae1fab699e52d39806d600a27739e032d1ce82d0d62006b2fcc55"
+        },
+        {
+          "id": 24,
+          "instanceId": "4-4-Q-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 894.0507259557369,
+            "y": 1098.4788776907153,
+            "width": 153.83960607665654,
+            "height": 122.17445639036532
+          },
+          "polygon": [
+            {
+              "x": 927.6818248015753,
+              "y": 1220.6533340810806
+            },
+            {
+              "x": 894.0507259557369,
+              "y": 1152.6975295630357
+            },
+            {
+              "x": 1014.259233186555,
+              "y": 1098.4788776907153
+            },
+            {
+              "x": 1047.8903320323934,
+              "y": 1166.4346822087603
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "Q",
+            "suit": "spades"
+          },
+          "glyph": "D",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/Q-spades.png",
+          "sourceSha256": "4d98e730a9f19e5d1c72c1d5ffba596823d350e0fc3b62991642cf6e2f0aa1a3"
+        },
+        {
+          "id": 25,
+          "instanceId": "4-4-Q-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1021.2747703497973,
+            "y": 827.3466659189191,
+            "width": 153.83960607665654,
+            "height": 122.17445639036532
+          },
+          "polygon": [
+            {
+              "x": 1054.9058691956357,
+              "y": 949.5211223092845
+            },
+            {
+              "x": 1021.2747703497973,
+              "y": 881.5653177912396
+            },
+            {
+              "x": 1141.4832775806153,
+              "y": 827.3466659189191
+            },
+            {
+              "x": 1175.1143764264539,
+              "y": 895.3024704369641
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "Q",
+            "suit": "spades"
+          },
+          "glyph": "D",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/Q-spades.png",
+          "sourceSha256": "4d98e730a9f19e5d1c72c1d5ffba596823d350e0fc3b62991642cf6e2f0aa1a3"
+        }
+      ]
+    },
+    {
+      "image": "images/00005.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 6,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 26,
+          "instanceId": "5-0-10-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 761.4601771749162,
+            "y": 1313.9557173616647,
+            "width": 130.07080846514827,
+            "height": 84.94941141692675
+          },
+          "polygon": [
+            {
+              "x": 891.5309856400645,
+              "y": 1324.963320451227
+            },
+            {
+              "x": 889.4127929960355,
+              "y": 1398.9051287785915
+            },
+            {
+              "x": 761.4601771749162,
+              "y": 1387.8975256890292
+            },
+            {
+              "x": 763.5783698189452,
+              "y": 1313.9557173616647
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "hearts"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-hearts.png",
+          "sourceSha256": "b54a5dc8530113bc2545d7859db154c94d2aede4397c054b1ae128704f5f8fd9"
+        },
+        {
+          "id": 27,
+          "instanceId": "5-0-10-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 528.5420790749472,
+            "y": 1484.522723758523,
+            "width": 130.07080846514827,
+            "height": 84.94941141692652
+          },
+          "polygon": [
+            {
+              "x": 658.6128875400955,
+              "y": 1495.5303268480852
+            },
+            {
+              "x": 656.4946948960664,
+              "y": 1569.4721351754495
+            },
+            {
+              "x": 528.5420790749472,
+              "y": 1558.4645320858874
+            },
+            {
+              "x": 530.6602717189762,
+              "y": 1484.522723758523
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "hearts"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-hearts.png",
+          "sourceSha256": "b54a5dc8530113bc2545d7859db154c94d2aede4397c054b1ae128704f5f8fd9"
+        },
+        {
+          "id": 28,
+          "instanceId": "5-2-J-clubs",
+          "corner": "top-left",
+          "bbox": {
+            "x": 915.2305402736539,
+            "y": 1195.6413558357451,
+            "width": 148.12296321400788,
+            "height": 118.98752687750675
+          },
+          "polygon": [
+            {
+              "x": 941.5671362168955,
+              "y": 1314.6288827132519
+            },
+            {
+              "x": 915.2305402736539,
+              "y": 1245.4512090736894
+            },
+            {
+              "x": 1037.0169075444203,
+              "y": 1195.6413558357451
+            },
+            {
+              "x": 1063.3535034876618,
+              "y": 1264.8190294753076
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "clubs"
+          },
+          "glyph": "V",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/J-clubs.png",
+          "sourceSha256": "bb36df1007d4c28efd8189ce586a95ebd5cc8273234c8476ad1dffc7f4f0ca49"
+        },
+        {
+          "id": 29,
+          "instanceId": "5-2-J-clubs",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1064.0169623612842,
+            "y": 929.2050591332229,
+            "width": 148.122963214008,
+            "height": 118.98752687750698
+          },
+          "polygon": [
+            {
+              "x": 1090.3535583045257,
+              "y": 1048.1925860107299
+            },
+            {
+              "x": 1064.0169623612842,
+              "y": 979.0149123711672
+            },
+            {
+              "x": 1185.8033296320505,
+              "y": 929.2050591332229
+            },
+            {
+              "x": 1212.1399255752922,
+              "y": 998.3827327727855
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "clubs"
+          },
+          "glyph": "V",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/J-clubs.png",
+          "sourceSha256": "bb36df1007d4c28efd8189ce586a95ebd5cc8273234c8476ad1dffc7f4f0ca49"
+        },
+        {
+          "id": 30,
+          "instanceId": "5-3-9-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 1029.8669259860194,
+            "y": 367.0357191030614,
+            "width": 102.12575451250427,
+            "height": 64.94637451903554
+          },
+          "polygon": [
+            {
+              "x": 1131.9926804985237,
+              "y": 373.07977576473877
+            },
+            {
+              "x": 1131.0329653542772,
+              "y": 431.98209362209695
+            },
+            {
+              "x": 1029.8669259860194,
+              "y": 425.9380369604196
+            },
+            {
+              "x": 1030.8266411302657,
+              "y": 367.0357191030614
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "diamonds"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-diamonds.png",
+          "sourceSha256": "2bf7c01feca0cc8bbdb1a1c48b257cf621fdee8cef67514208c100a58025dc94"
+        },
+        {
+          "id": 31,
+          "instanceId": "5-3-9-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 847.5483503889907,
+            "y": 507.7538325440798,
+            "width": 102.12575451250439,
+            "height": 64.9463745190356
+          },
+          "polygon": [
+            {
+              "x": 949.6741049014951,
+              "y": 513.7978892057572
+            },
+            {
+              "x": 948.7143897572487,
+              "y": 572.7002070631154
+            },
+            {
+              "x": 847.5483503889907,
+              "y": 566.656150401438
+            },
+            {
+              "x": 848.5080655332371,
+              "y": 507.7538325440798
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "diamonds"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-diamonds.png",
+          "sourceSha256": "2bf7c01feca0cc8bbdb1a1c48b257cf621fdee8cef67514208c100a58025dc94"
+        },
+        {
+          "id": 32,
+          "instanceId": "5-4-8-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 33.67495829338482,
+            "y": 486.62332758732697,
+            "width": 101.61143686887497,
+            "height": 104.05641105056787
+          },
+          "polygon": [
+            {
+              "x": 33.67495829338482,
+              "y": 519.4509517240897
+            },
+            {
+              "x": 75.30998088816273,
+              "y": 486.62332758732697
+            },
+            {
+              "x": 135.2863951622598,
+              "y": 557.8521145011322
+            },
+            {
+              "x": 93.6513725674819,
+              "y": 590.6797386378948
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "8",
+            "suit": "spades"
+          },
+          "glyph": "8",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/8-spades.png",
+          "sourceSha256": "4c59444733ef7f9230f72f8dee2b2bb9cf2d4cae482ffda612a8c3c313d4ec23"
+        },
+        {
+          "id": 33,
+          "instanceId": "5-4-8-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 247.36118145295455,
+            "y": 528.8383914633686,
+            "width": 101.61143686887499,
+            "height": 104.05641105056782
+          },
+          "polygon": [
+            {
+              "x": 247.36118145295455,
+              "y": 561.6660156001312
+            },
+            {
+              "x": 288.9962040477324,
+              "y": 528.8383914633686
+            },
+            {
+              "x": 348.97261832182954,
+              "y": 600.0671783771737
+            },
+            {
+              "x": 307.3375957270516,
+              "y": 632.8948025139364
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "8",
+            "suit": "spades"
+          },
+          "glyph": "8",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/8-spades.png",
+          "sourceSha256": "4c59444733ef7f9230f72f8dee2b2bb9cf2d4cae482ffda612a8c3c313d4ec23"
+        },
+        {
+          "id": 34,
+          "instanceId": "5-5-A-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 369.18001825795545,
+            "y": 610.0160591152473,
+            "width": 146.36898893313617,
+            "height": 78.59747680150258
+          },
+          "polygon": [
+            {
+              "x": 369.18001825795545,
+              "y": 688.6135359167499
+            },
+            {
+              "x": 376.54655880462116,
+              "y": 610.0377259894356
+            },
+            {
+              "x": 515.5490071910916,
+              "y": 610.0160591152473
+            },
+            {
+              "x": 508.182466644426,
+              "y": 688.5918690425617
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        },
+        {
+          "id": 35,
+          "instanceId": "5-5-A-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 635.2380148904085,
+            "y": 407.9254575575648,
+            "width": 146.36898893313605,
+            "height": 78.59747680150258
+          },
+          "polygon": [
+            {
+              "x": 635.2380148904085,
+              "y": 486.5229343590674
+            },
+            {
+              "x": 642.6045554370742,
+              "y": 407.947124431753
+            },
+            {
+              "x": 781.6070038235446,
+              "y": 407.9254575575648
+            },
+            {
+              "x": 774.2404632768789,
+              "y": 486.5012674848791
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        }
+      ]
+    },
+    {
+      "image": "images/00006.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 7,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 36,
+          "instanceId": "6-0-7-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1294.0166996459507,
+            "y": 766.848899052486,
+            "width": 156.95925797446876,
+            "height": 127.41090405011346
+          },
+          "polygon": [
+            {
+              "x": 1294.0166996459507,
+              "y": 837.5708070458836
+            },
+            {
+              "x": 1326.672000705219,
+              "y": 766.848899052486
+            },
+            {
+              "x": 1450.9759576204194,
+              "y": 823.5378951092018
+            },
+            {
+              "x": 1418.320656561151,
+              "y": 894.2598031025994
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "7",
+            "suit": "diamonds"
+          },
+          "glyph": "7",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/7-diamonds.png",
+          "sourceSha256": "37ec403b788f44d509aa394befa10c419355a14a59e5721e882a103a11a6aa93"
+        },
+        {
+          "id": 37,
+          "instanceId": "6-1-A-clubs",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 973.1018581033121,
+            "y": 748.6944728154532,
+            "width": 110.82099601857828,
+            "height": 85.43139238405945
+          },
+          "polygon": [
+            {
+              "x": 1001.1053205591905,
+              "y": 834.1258651995126
+            },
+            {
+              "x": 973.1018581033121,
+              "y": 789.6863827583113
+            },
+            {
+              "x": 1055.919391666012,
+              "y": 748.6944728154532
+            },
+            {
+              "x": 1083.9228541218904,
+              "y": 793.1339552566546
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "clubs"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-clubs.png",
+          "sourceSha256": "a8c8f6f2a1afc716d0ee01b5c0808d72a49e149d805813c5007cae67d94af7af"
+        },
+        {
+          "id": 38,
+          "instanceId": "6-3-J-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 961.7245315787761,
+            "y": 1143.6428725309108,
+            "width": 153.21706082882247,
+            "height": 155.54638426275733
+          },
+          "polygon": [
+            {
+              "x": 1028.3015977014072,
+              "y": 1299.1892567936682
+            },
+            {
+              "x": 961.7245315787761,
+              "y": 1250.9757262345793
+            },
+            {
+              "x": 1048.3645262849675,
+              "y": 1143.6428725309108
+            },
+            {
+              "x": 1114.9415924075986,
+              "y": 1191.8564030899997
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 39,
+          "instanceId": "6-3-J-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 944.5530188046044,
+            "y": 828.8512603819702,
+            "width": 153.21706082882258,
+            "height": 155.54638426275733
+          },
+          "polygon": [
+            {
+              "x": 1011.1300849272355,
+              "y": 984.3976446447275
+            },
+            {
+              "x": 944.5530188046044,
+              "y": 936.1841140856386
+            },
+            {
+              "x": 1031.193013510796,
+              "y": 828.8512603819702
+            },
+            {
+              "x": 1097.770079633427,
+              "y": 877.064790941059
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 40,
+          "instanceId": "6-4-9-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 674.8759845522238,
+            "y": 918.5898109106517,
+            "width": 88.69521102429519,
+            "height": 144.90583120792826
+          },
+          "polygon": [
+            {
+              "x": 755.9892251373832,
+              "y": 1063.49564211858
+            },
+            {
+              "x": 674.8759845522238,
+              "y": 1055.78242711147
+            },
+            {
+              "x": 682.4579549913595,
+              "y": 918.5898109106517
+            },
+            {
+              "x": 763.571195576519,
+              "y": 926.3030259177617
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "hearts"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-hearts.png",
+          "sourceSha256": "5110498de5eae1fab699e52d39806d600a27739e032d1ce82d0d62006b2fcc55"
+        },
+        {
+          "id": 41,
+          "instanceId": "6-4-9-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 479.7781387488489,
+            "y": 654.8578451067873,
+            "width": 88.69521102429525,
+            "height": 144.90583120792826
+          },
+          "polygon": [
+            {
+              "x": 560.8913793340083,
+              "y": 799.7636763147156
+            },
+            {
+              "x": 479.7781387488489,
+              "y": 792.0504613076056
+            },
+            {
+              "x": 487.3601091879847,
+              "y": 654.8578451067873
+            },
+            {
+              "x": 568.4733497731442,
+              "y": 662.5710601138971
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "hearts"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-hearts.png",
+          "sourceSha256": "5110498de5eae1fab699e52d39806d600a27739e032d1ce82d0d62006b2fcc55"
+        },
+        {
+          "id": 42,
+          "instanceId": "6-5-K-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 705.5686438248415,
+            "y": 510.60937807221154,
+            "width": 61.29685488670566,
+            "height": 95.63813615248017
+          },
+          "polygon": [
+            {
+              "x": 766.8654987115472,
+              "y": 606.2475142246917
+            },
+            {
+              "x": 711.3979026081297,
+              "y": 604.4594483856524
+            },
+            {
+              "x": 705.5686438248415,
+              "y": 510.60937807221154
+            },
+            {
+              "x": 761.036239928259,
+              "y": 512.3974439112508
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        },
+        {
+          "id": 43,
+          "instanceId": "6-5-K-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 552.5745556902081,
+            "y": 339.1669250399933,
+            "width": 61.29685488670566,
+            "height": 95.63813615248023
+          },
+          "polygon": [
+            {
+              "x": 613.8714105769137,
+              "y": 434.80506119247354
+            },
+            {
+              "x": 558.4038144734963,
+              "y": 433.0169953534342
+            },
+            {
+              "x": 552.5745556902081,
+              "y": 339.1669250399933
+            },
+            {
+              "x": 608.0421517936255,
+              "y": 340.9549908790326
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        },
+        {
+          "id": 44,
+          "instanceId": "6-6-10-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 974.4102165799353,
+            "y": 1522.9683649684412,
+            "width": 107.90221642782274,
+            "height": 136.53932769955463
+          },
+          "polygon": [
+            {
+              "x": 1049.5450515803966,
+              "y": 1659.5076926679958
+            },
+            {
+              "x": 974.4102165799353,
+              "y": 1646.0268262115542
+            },
+            {
+              "x": 1007.1775980072968,
+              "y": 1522.9683649684412
+            },
+            {
+              "x": 1082.312433007758,
+              "y": 1536.4492314248828
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "hearts"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-hearts.png",
+          "sourceSha256": "b54a5dc8530113bc2545d7859db154c94d2aede4397c054b1ae128704f5f8fd9"
+        },
+        {
+          "id": 45,
+          "instanceId": "6-6-10-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 839.4594776877093,
+            "y": 1269.5326820292003,
+            "width": 107.90221642782285,
+            "height": 136.5393276995544
+          },
+          "polygon": [
+            {
+              "x": 914.5943126881705,
+              "y": 1406.0720097287547
+            },
+            {
+              "x": 839.4594776877093,
+              "y": 1392.591143272313
+            },
+            {
+              "x": 872.2268591150707,
+              "y": 1269.5326820292003
+            },
+            {
+              "x": 947.3616941155321,
+              "y": 1283.0135484856419
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "10",
+            "suit": "hearts"
+          },
+          "glyph": "10",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/10-hearts.png",
+          "sourceSha256": "b54a5dc8530113bc2545d7859db154c94d2aede4397c054b1ae128704f5f8fd9"
+        }
+      ]
+    },
+    {
+      "image": "images/00007.jpg",
+      "width": 1536,
+      "height": 2048,
+      "cardCount": 8,
+      "mode": "scatter",
+      "annotations": [
+        {
+          "id": 46,
+          "instanceId": "7-0-J-clubs",
+          "corner": "top-left",
+          "bbox": {
+            "x": 388.1401972540441,
+            "y": 419.10991375633637,
+            "width": 113.5874644197495,
+            "height": 93.95545251801468
+          },
+          "polygon": [
+            {
+              "x": 417.28942252459774,
+              "y": 513.065366274351
+            },
+            {
+              "x": 388.1401972540441,
+              "y": 464.3145902205698
+            },
+            {
+              "x": 472.57843640323995,
+              "y": 419.10991375633637
+            },
+            {
+              "x": 501.7276616737936,
+              "y": 467.86068981011755
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "clubs"
+          },
+          "glyph": "V",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/J-clubs.png",
+          "sourceSha256": "bb36df1007d4c28efd8189ce586a95ebd5cc8273234c8476ad1dffc7f4f0ca49"
+        },
+        {
+          "id": 47,
+          "instanceId": "7-0-J-clubs",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 463.2974717124606,
+            "y": 213.38690606257904,
+            "width": 113.5874644197495,
+            "height": 93.95545251801474
+          },
+          "polygon": [
+            {
+              "x": 492.44669698301425,
+              "y": 307.3423585805938
+            },
+            {
+              "x": 463.2974717124606,
+              "y": 258.59158252681254
+            },
+            {
+              "x": 547.7357108616565,
+              "y": 213.38690606257904
+            },
+            {
+              "x": 576.8849361322101,
+              "y": 262.1376821163603
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "clubs"
+          },
+          "glyph": "V",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/J-clubs.png",
+          "sourceSha256": "bb36df1007d4c28efd8189ce586a95ebd5cc8273234c8476ad1dffc7f4f0ca49"
+        },
+        {
+          "id": 48,
+          "instanceId": "7-1-K-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 736.490502006099,
+            "y": 1485.294288219373,
+            "width": 153.10451236175527,
+            "height": 92.4751797127692
+          },
+          "polygon": [
+            {
+              "x": 754.042710480445,
+              "y": 1577.769467932142
+            },
+            {
+              "x": 736.490502006099,
+              "y": 1500.9394547877705
+            },
+            {
+              "x": 872.0428058935082,
+              "y": 1485.294288219373
+            },
+            {
+              "x": 889.5950143678542,
+              "y": 1562.1243013637443
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "spades"
+          },
+          "glyph": "R",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/K-spades.png",
+          "sourceSha256": "cf8c06c3e155bfaa8a3b11937a21191b400dbc0511ab0b6b02dead355dba16b9"
+        },
+        {
+          "id": 49,
+          "instanceId": "7-1-K-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 932.3381252211116,
+            "y": 1259.9177678217739,
+            "width": 153.10451236175527,
+            "height": 92.4751797127692
+          },
+          "polygon": [
+            {
+              "x": 949.8903336954575,
+              "y": 1352.392947534543
+            },
+            {
+              "x": 932.3381252211116,
+              "y": 1275.5629343901717
+            },
+            {
+              "x": 1067.890429108521,
+              "y": 1259.9177678217739
+            },
+            {
+              "x": 1085.4426375828668,
+              "y": 1336.7477809661452
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "spades"
+          },
+          "glyph": "R",
+          "alphabet": "french",
+          "sourceAsset": "training/sources/andrew-tidey/K-spades.png",
+          "sourceSha256": "cf8c06c3e155bfaa8a3b11937a21191b400dbc0511ab0b6b02dead355dba16b9"
+        },
+        {
+          "id": 50,
+          "instanceId": "7-2-A-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 43.25723926011803,
+            "y": 1728.9136906458327,
+            "width": 100.1271803647114,
+            "height": 64.49867539379898
+          },
+          "polygon": [
+            {
+              "x": 43.25723926011803,
+              "y": 1779.6118803313836
+            },
+            {
+              "x": 52.81623701489503,
+              "y": 1728.9136906458327
+            },
+            {
+              "x": 143.38441962482943,
+              "y": 1742.7141763540808
+            },
+            {
+              "x": 133.82542187005242,
+              "y": 1793.4123660396317
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        },
+        {
+          "id": 51,
+          "instanceId": "7-2-A-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 228.84762161863432,
+            "y": 1623.081113983365,
+            "width": 100.12718036471142,
+            "height": 64.49867539379898
+          },
+          "polygon": [
+            {
+              "x": 228.84762161863432,
+              "y": 1673.7793036689159
+            },
+            {
+              "x": 238.40661937341127,
+              "y": 1623.081113983365
+            },
+            {
+              "x": 328.97480198334574,
+              "y": 1636.881599691613
+            },
+            {
+              "x": 319.41580422856873,
+              "y": 1687.579789377164
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "spades"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-spades.png",
+          "sourceSha256": "267e84d460d32e9ad0a4723acce0e5dda0cbe9f90440adec27934a1b5bab73d9"
+        },
+        {
+          "id": 52,
+          "instanceId": "7-4-A-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 608.8768220226556,
+            "y": 902.6485138924669,
+            "width": 120.73847795051597,
+            "height": 151.13063151920812
+          },
+          "polygon": [
+            {
+              "x": 608.8768220226556,
+              "y": 933.1604184853393
+            },
+            {
+              "x": 680.5715852704368,
+              "y": 902.6485138924669
+            },
+            {
+              "x": 729.6152999731715,
+              "y": 1023.2672408188025
+            },
+            {
+              "x": 657.9205367253903,
+              "y": 1053.779145411675
+            }
+          ],
+          "visibleFraction": 0.6122448979591837,
+          "card": {
+            "rank": "A",
+            "suit": "diamonds"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-diamonds.png",
+          "sourceSha256": "92803593f474dac8095fb341becd48c7fde54092e75dd10a2cd701dcb84c2acf"
+        },
+        {
+          "id": 53,
+          "instanceId": "7-4-A-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 880.4236107980023,
+            "y": 1038.6226229671379,
+            "width": 120.73847795051597,
+            "height": 151.130631519208
+          },
+          "polygon": [
+            {
+              "x": 880.4236107980023,
+              "y": 1069.1345275600102
+            },
+            {
+              "x": 952.1183740457835,
+              "y": 1038.6226229671379
+            },
+            {
+              "x": 1001.1620887485183,
+              "y": 1159.2413498934734
+            },
+            {
+              "x": 929.467325500737,
+              "y": 1189.753254486346
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "A",
+            "suit": "diamonds"
+          },
+          "glyph": "A",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/A-diamonds.png",
+          "sourceSha256": "92803593f474dac8095fb341becd48c7fde54092e75dd10a2cd701dcb84c2acf"
+        },
+        {
+          "id": 54,
+          "instanceId": "7-5-K-diamonds",
+          "corner": "top-left",
+          "bbox": {
+            "x": 838.3788069727161,
+            "y": 221.5355036688058,
+            "width": 109.85119525095104,
+            "height": 93.12420882800774
+          },
+          "polygon": [
+            {
+              "x": 838.3788069727161,
+              "y": 260.605910231389
+            },
+            {
+              "x": 874.8404943384832,
+              "y": 221.5355036688058
+            },
+            {
+              "x": 948.2300022236672,
+              "y": 275.5893059342303
+            },
+            {
+              "x": 911.7683148579001,
+              "y": 314.65971249681354
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        },
+        {
+          "id": 55,
+          "instanceId": "7-5-K-diamonds",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1062.6076678678726,
+            "y": 217.16439240831488,
+            "width": 109.85119525095092,
+            "height": 93.12420882800774
+          },
+          "polygon": [
+            {
+              "x": 1062.6076678678726,
+              "y": 256.2347989708981
+            },
+            {
+              "x": 1099.0693552336397,
+              "y": 217.16439240831488
+            },
+            {
+              "x": 1172.4588631188235,
+              "y": 271.21819467373945
+            },
+            {
+              "x": 1135.9971757530566,
+              "y": 310.2886012363226
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "K",
+            "suit": "diamonds"
+          },
+          "glyph": "K",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/K-diamonds.png",
+          "sourceSha256": "565b83090c127f564779f3972bab1aece14463f2f81c6c3db598a0449c8ff3a2"
+        },
+        {
+          "id": 56,
+          "instanceId": "7-6-J-hearts",
+          "corner": "top-left",
+          "bbox": {
+            "x": 1219.547813914278,
+            "y": 730.3010386634224,
+            "width": 90.74497528115671,
+            "height": 113.0996588618408
+          },
+          "polygon": [
+            {
+              "x": 1310.2927891954348,
+              "y": 811.0932424894115
+            },
+            {
+              "x": 1266.383678225892,
+              "y": 843.4006975252632
+            },
+            {
+              "x": 1219.547813914278,
+              "y": 762.608493699274
+            },
+            {
+              "x": 1263.456924883821,
+              "y": 730.3010386634224
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 57,
+          "instanceId": "7-6-J-hearts",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 1023.3749126449657,
+            "y": 669.7467670332192,
+            "width": 90.74497528115671,
+            "height": 113.09965886184068
+          },
+          "polygon": [
+            {
+              "x": 1114.1198879261224,
+              "y": 750.5389708592082
+            },
+            {
+              "x": 1070.2107769565794,
+              "y": 782.8464258950598
+            },
+            {
+              "x": 1023.3749126449657,
+              "y": 702.0542220690708
+            },
+            {
+              "x": 1067.2840236145084,
+              "y": 669.7467670332192
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "J",
+            "suit": "hearts"
+          },
+          "glyph": "J",
+          "alphabet": "english",
+          "sourceAsset": "training/sources/andrew-tidey/J-hearts.png",
+          "sourceSha256": "79abde81c4dd35af4326921411871a7b01772b707e361af0df1ec68b16ae4474"
+        },
+        {
+          "id": 58,
+          "instanceId": "7-7-9-spades",
+          "corner": "top-left",
+          "bbox": {
+            "x": 498.0655833967999,
+            "y": 798.0817885171043,
+            "width": 108.4111912703184,
+            "height": 100.78487824787487
+          },
+          "polygon": [
+            {
+              "x": 566.7580464580662,
+              "y": 798.0817885171043
+            },
+            {
+              "x": 606.4767746671183,
+              "y": 833.2845401498336
+            },
+            {
+              "x": 537.784311605852,
+              "y": 898.8666667649792
+            },
+            {
+              "x": 498.0655833967999,
+              "y": 863.6639151322499
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "spades"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-spades.png",
+          "sourceSha256": "8cffbb16ceb2f00140642383c9a722402a3b625ce439e6941d45a7d4281e2208"
+        },
+        {
+          "id": 59,
+          "instanceId": "7-7-9-spades",
+          "corner": "bottom-right",
+          "bbox": {
+            "x": 478.0795216032224,
+            "y": 1005.1935971742225,
+            "width": 108.4111912703184,
+            "height": 100.78487824787476
+          },
+          "polygon": [
+            {
+              "x": 546.7719846644887,
+              "y": 1005.1935971742225
+            },
+            {
+              "x": 586.4907128735408,
+              "y": 1040.3963488069517
+            },
+            {
+              "x": 517.7982498122745,
+              "y": 1105.9784754220973
+            },
+            {
+              "x": 478.0795216032224,
+              "y": 1070.7757237893682
+            }
+          ],
+          "visibleFraction": 1,
+          "card": {
+            "rank": "9",
+            "suit": "spades"
+          },
+          "glyph": "9",
+          "alphabet": "shared",
+          "sourceAsset": "training/sources/andrew-tidey/9-spades.png",
+          "sourceSha256": "8cffbb16ceb2f00140642383c9a722402a3b625ce439e6941d45a7d4281e2208"
+        }
+      ]
+    }
+  ]
+}

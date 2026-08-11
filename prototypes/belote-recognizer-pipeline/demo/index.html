@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belote recognizer data slice</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Learned recognizer · data slice</p>
+        <h1>Belote corner-index dataset</h1>
+        <p>
+          Synthetic full-photo scenes. Cyan boxes are visible corner-index
+          targets; labels show visible glyph → canonical card.
+        </p>
+      </header>
+
+      <section class="metrics" id="metrics" aria-label="Dataset coverage"></section>
+
+      <section class="viewer">
+        <div class="toolbar">
+          <label>
+            Scene
+            <select id="scene"></select>
+          </label>
+          <span id="scene-meta"></span>
+        </div>
+        <canvas id="canvas"></canvas>
+      </section>
+
+      <section class="contact">
+        <div>
+          <h2>Contact sheet</h2>
+          <p>Deterministic sample bundled for browser inspection.</p>
+        </div>
+        <img src="/sample-data/preview.jpg" alt="Synthetic Belote scene contact sheet" />
+      </section>
+
+      <aside>
+        <strong>Scope:</strong> acquisition, synthetic labels, browser
+        full-photo orchestration contract. No trained model or real-photo
+        accuracy claim yet.
+      </aside>
+    </main>
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>

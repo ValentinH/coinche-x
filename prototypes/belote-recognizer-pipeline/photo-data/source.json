@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "dataset": {
+    "id": "drFarid/French-Playing-Cards",
+    "commit": "8931a981f24b78d7dc0e528f42a6e9d784ad23ea",
+    "license": "mit",
+    "metadataUrl": "https://huggingface.co/api/datasets/drFarid/French-Playing-Cards/revision/8931a981f24b78d7dc0e528f42a6e9d784ad23ea",
+    "fileBaseUrl": "https://huggingface.co/datasets/drFarid/French-Playing-Cards/resolve/8931a981f24b78d7dc0e528f42a6e9d784ad23ea"
+  },
+  "selection": {
+    "samplesPerClass": 6,
+    "strategy": "smallest hash-unique file in each provisional filename-family bucket",
+    "captureFamilies": [
+      {
+        "id": "dated-20240130",
+        "filePattern": "^20240130_",
+        "split": "train"
+      },
+      {
+        "id": "march-20240314",
+        "filePattern": "^20240314_",
+        "split": "validation"
+      },
+      {
+        "id": "img-numbered",
+        "filePattern": "^IMG_[0-9]{4}\\.(?:jpe?g)$",
+        "flags": "i",
+        "split": "train"
+      },
+      {
+        "id": "img-dated",
+        "filePattern": "^IMG_20[0-9]{6}_",
+        "flags": "i",
+        "split": "validation"
+      },
+      {
+        "id": "messaging",
+        "filePattern": "^(?:apple|WhatsApp )",
+        "flags": "i",
+        "split": "train"
+      },
+      {
+        "id": "named-card",
+        "filePattern": "^(?!202|IMG_|WhatsApp |apple|1710).+\\.jpe?g$",
+        "flags": "i",
+        "split": "validation"
+      }
+    ]
+  },
+  "labels": {
+    "ranks": {
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "J": "Valet",
+      "Q": "Dame",
+      "K": "Roi",
+      "A": "1"
+    },
+    "suits": {
+      "clubs": "Trefle",
+      "diamonds": "carreau",
+      "hearts": "Coeur",
+      "spades": "Pique"
+    }
+  }
+}

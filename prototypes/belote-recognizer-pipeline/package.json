@@ -1,0 +1,23 @@
+{
+  "name": "belote-recognizer-pipeline",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.5.2",
+  "scripts": {
+    "assets:acquire": "node scripts/acquire-assets.mjs",
+    "dataset:train": "node scripts/generate-dataset.mjs --split train --count 256 --out generated/train",
+    "dataset:validation": "node scripts/generate-dataset.mjs --split validation --count 64 --out generated/validation",
+    "dataset:holdout": "node scripts/generate-dataset.mjs --split holdout --count 64 --out generated/holdout",
+    "dataset:verify": "node scripts/verify-dataset.mjs generated/train generated/validation generated/holdout",
+    "test": "node --test tests/*.test.mjs && node scripts/self-test.mjs",
+    "demo": "vite --config vite.config.mjs",
+    "build": "vite build --config vite.config.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  },
+  "peerDependencies": {
+    "onnxruntime-web": "^1.22.0"
+  }
+}

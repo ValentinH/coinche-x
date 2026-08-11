@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belote real-photo crop audit</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <p class="eyebrow">Belote recognition · real-photo source audit</p>
+      <h1>Photo → rectified card → 64×64 corner</h1>
+      <p id="summary">Loading verified provenance…</p>
+      <div class="filters">
+        <label>
+          Suit
+          <select id="suit">
+            <option value="">All</option>
+            <option>clubs</option>
+            <option>diamonds</option>
+            <option>hearts</option>
+            <option>spades</option>
+          </select>
+        </label>
+        <label>
+          Split
+          <select id="split">
+            <option value="">All</option>
+            <option>train</option>
+            <option>validation</option>
+          </select>
+        </label>
+        <label class="check">
+          <input id="failed" type="checkbox" />
+          Failures only
+        </label>
+      </div>
+    </header>
+    <main id="gallery" aria-live="polite"></main>
+    <template id="card">
+      <article>
+        <div class="title">
+          <strong class="label"></strong>
+          <span class="status"></span>
+        </div>
+        <div class="images">
+          <figure><img class="photo" loading="lazy" /><figcaption>photo</figcaption></figure>
+          <figure><img class="rectified" loading="lazy" /><figcaption>rectified</figcaption></figure>
+          <figure><img class="corner top-left" loading="lazy" /><figcaption>top-left</figcaption></figure>
+          <figure><img class="corner bottom-right" loading="lazy" /><figcaption>bottom-right</figcaption></figure>
+        </div>
+        <dl>
+          <dt>capture</dt><dd class="capture"></dd>
+          <dt>split</dt><dd class="split"></dd>
+          <dt>score</dt><dd class="score"></dd>
+          <dt>hash</dt><dd class="hash"></dd>
+        </dl>
+      </article>
+    </template>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

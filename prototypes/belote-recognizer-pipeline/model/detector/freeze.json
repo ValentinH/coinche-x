@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "status": "rejected-before-greywyvern",
+  "files": {
+    "detector.pt": {
+      "sha256": "0516a17a052709bd384af6cc9e18f45c92e74eb39c81043121bb133db813cebe",
+      "bytes": 386554
+    },
+    "detector.onnx": {
+      "sha256": "fa14fa8daa56e09d016ae8d23d8d94aa3daa96848994dca27ef179a9bc1298ff",
+      "bytes": 518754
+    },
+    "detector-config.json": {
+      "sha256": "c1456d00a53c6b040902684565f2ab732455e49a3c56638abe6cc94d18056ed3",
+      "bytes": 842
+    },
+    "model.py": {
+      "sha256": "930ec67badb6fc1e898085b1ec2238f013a00445bbab0d74945e747b27697313",
+      "bytes": 6653
+    },
+    "data.py": {
+      "sha256": "596d1575fa9fd32951705286967a7b6cedcc7e6c390e2f00935a66cc81e334b7",
+      "bytes": 8603
+    },
+    "decode.py": {
+      "sha256": "bf66856bca5828e91c76d2f3a16eb5e9ce2fe00d5a14757a557fdb79cbd9f351",
+      "bytes": 6655
+    },
+    "train.py": {
+      "sha256": "3b57be054f3ea91ec404b5cedca7d231c94eccc15b26272bea998d31fa5ec378",
+      "bytes": 14453
+    },
+    "acquire_jackfurby.py": {
+      "sha256": "35c9bd1f42dd54cc14ee9ecf3509e5319ba7e79182f5dee6ecf310dde3c2d3be",
+      "bytes": 9553
+    },
+    "evaluate_holdout.py": {
+      "sha256": "1719df9c15037563e47f97307b1c6e74def03be93446dd3bf3b6e2782d03f9d2",
+      "bytes": 5301
+    },
+    "test_detector.py": {
+      "sha256": "57574e019940bb311a3960c2676f4447ab544ac101131ea4e5fb9bbfcbf7239e",
+      "bytes": 1506
+    },
+    "README.md": {
+      "sha256": "8147196b8ba264d8b00d19ee496a7125bcae2e7ccd66d5466fc83ffdafa8babf",
+      "bytes": 994
+    },
+    "LICENSE": {
+      "sha256": "782f2f562bd6b830ba281907a159b4da7c9dbe9e69cbdc90999bdbf40f1485dd",
+      "bytes": 1079
+    },
+    "generated/validation/dataset.sha256": {
+      "sha256": "a16a2d13ffae44b7b8b937c32ecceaa08d6adefa081e35aeb17491c557f58c09",
+      "bytes": 5647
+    },
+    "generated/train/dataset.sha256": {
+      "sha256": "37d9b06d9d6503adf4fbaf2e641a9ac7a2beb3ed3ef47491ccc413ad4bae43ae",
+      "bytes": 21583
+    },
+    "generated/jackfurby-train/dataset.sha256": {
+      "sha256": "35db9697d34ff0a086f49ed83a76da2cdb9bdbe00d0977b9d589dbd864fdfb3b",
+      "bytes": 137828
+    },
+    "generated/jackfurby-train/provenance.json": {
+      "sha256": "e5e1706bc7dea13b19cabc092949628e599632b466dfe8ebc9608e900b99f0f5",
+      "bytes": 310805
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "cleanDefinition": "visibleFraction >= 0.999 and corner polygon fully on canvas",
+  "metrics": {
+    "allVisibleLabels": {
+      "cardAccuracy": 0.7512388503468781,
+      "count": 1009,
+      "loss": 0.8733082616293749,
+      "rankAccuracy": 0.8830525272547076,
+      "rankPerClass": {
+        "10": {
+          "correct": 100,
+          "recall": 0.9523809523809523,
+          "support": 105
+        },
+        "7": {
+          "correct": 129,
+          "recall": 0.9416058394160584,
+          "support": 137
+        },
+        "8": {
+          "correct": 115,
+          "recall": 0.905511811023622,
+          "support": 127
+        },
+        "9": {
+          "correct": 102,
+          "recall": 0.8225806451612904,
+          "support": 124
+        },
+        "A": {
+          "correct": 104,
+          "recall": 0.8253968253968254,
+          "support": 126
+        },
+        "J": {
+          "correct": 119,
+          "recall": 0.9083969465648855,
+          "support": 131
+        },
+        "K": {
+          "correct": 109,
+          "recall": 0.8449612403100775,
+          "support": 129
+        },
+        "Q": {
+          "correct": 113,
+          "recall": 0.8692307692307693,
+          "support": 130
+        }
+      },
+      "suitAccuracy": 0.8136769078295342,
+      "suitPerClass": {
+        "clubs": {
+          "correct": 214,
+          "recall": 0.8106060606060606,
+          "support": 264
+        },
+        "diamonds": {
+          "correct": 219,
+          "recall": 0.8690476190476191,
+          "support": 252
+        },
+        "hearts": {
+          "correct": 181,
+          "recall": 0.7869565217391304,
+          "support": 230
+        },
+        "spades": {
+          "correct": 207,
+          "recall": 0.7870722433460076,
+          "support": 263
+        }
+      }
+    },
+    "clean": {
+      "cardAccuracy": 0.7674661105318039,
+      "count": 959,
+      "loss": 0.8136392083481281,
+      "rankAccuracy": 0.894681960375391,
+      "rankPerClass": {
+        "10": {
+          "correct": 95,
+          "recall": 0.95,
+          "support": 100
+        },
+        "7": {
+          "correct": 124,
+          "recall": 0.9465648854961832,
+          "support": 131
+        },
+        "8": {
+          "correct": 110,
+          "recall": 0.9016393442622951,
+          "support": 122
+        },
+        "9": {
+          "correct": 97,
+          "recall": 0.8220338983050848,
+          "support": 118
+        },
+        "A": {
+          "correct": 96,
+          "recall": 0.8421052631578947,
+          "support": 114
+        },
+        "J": {
+          "correct": 118,
+          "recall": 0.944,
+          "support": 125
+        },
+        "K": {
+          "correct": 107,
+          "recall": 0.856,
+          "support": 125
+        },
+        "Q": {
+          "correct": 111,
+          "recall": 0.8951612903225806,
+          "support": 124
+        }
+      },
+      "suitAccuracy": 0.8248175182481752,
+      "suitPerClass": {
+        "clubs": {
+          "correct": 203,
+          "recall": 0.8185483870967742,
+          "support": 248
+        },
+        "diamonds": {
+          "correct": 215,
+          "recall": 0.8704453441295547,
+          "support": 247
+        },
+        "hearts": {
+          "correct": 174,
+          "recall": 0.8169014084507042,
+          "support": 213
+        },
+        "spades": {
+          "correct": 199,
+          "recall": 0.7928286852589641,
+          "support": 251
+        }
+      }
+    }
+  },
+  "schemaVersion": 1,
+  "source": "andrew-tidey-cards-pack",
+  "split": "validation"
+}

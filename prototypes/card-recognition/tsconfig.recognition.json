@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src/recognition",
+    "types": ["vite/client"]
+  },
+  "include": ["src/recognition/**/*.ts"],
+  "exclude": ["src/evaluation", "src/ui", "tests"]
+}

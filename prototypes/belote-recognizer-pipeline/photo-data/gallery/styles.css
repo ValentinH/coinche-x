@@ -1,0 +1,165 @@
+:root {
+  color: #17221c;
+  background: #edf1e9;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 20px clamp(18px, 4vw, 56px);
+  border-bottom: 1px solid #cbd3c8;
+  background: rgb(237 241 233 / 94%);
+  backdrop-filter: blur(10px);
+}
+
+.eyebrow {
+  margin: 0;
+  color: #627065;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 4px 0 6px;
+  font-size: clamp(24px, 4vw, 42px);
+}
+
+#summary {
+  margin: 0;
+  color: #526057;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  align-items: end;
+  margin-top: 16px;
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  color: #526057;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+select {
+  min-width: 130px;
+  padding: 8px 10px;
+  border: 1px solid #b8c4b9;
+  border-radius: 8px;
+  background: white;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  min-height: 34px;
+  font-size: 14px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 20px clamp(18px, 4vw, 56px) 56px;
+}
+
+article {
+  padding: 14px;
+  border: 1px solid #d0d8ce;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(45 60 49 / 6%);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.status {
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: #8b301f;
+  background: #ffe1d9;
+  font-size: 12px;
+}
+
+.status[data-ok="true"] {
+  color: #21603b;
+  background: #d8f2df;
+}
+
+.images {
+  display: grid;
+  grid-template-columns:
+    minmax(80px, 1.5fr) minmax(64px, 0.8fr)
+    repeat(2, minmax(48px, 64px));
+  gap: 8px;
+  align-items: end;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #f1f2ee;
+}
+
+.rectified {
+  object-fit: cover;
+}
+
+.corner {
+  width: 64px;
+  height: 64px;
+  image-rendering: auto;
+}
+
+figcaption {
+  margin-top: 4px;
+  color: #758078;
+  font-size: 10px;
+  text-align: center;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3px 8px;
+  margin: 12px 0 0;
+  font-size: 11px;
+}
+
+dt {
+  color: #859087;
+}
+
+dd {
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

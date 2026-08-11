@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "andrew-tidey-cards-pack",
+      "role": "training",
+      "pageUrl": "https://opengameart.org/content/cards-set",
+      "archiveUrl": "https://opengameart.org/sites/default/files/Cards%20Pack.zip",
+      "archiveSha256": "de267af58f664cdae1e700a0c3569a7aa082cdfd80e6601f9344f07379ea7ce2",
+      "license": "CC0-1.0",
+      "author": "Andrew Tidey",
+      "assetPath": "training/sources/andrew-tidey"
+    },
+    {
+      "id": "greywyvern-cardset",
+      "role": "holdout-only",
+      "pageUrl": "https://opengameart.org/content/greywyvern-playing-card-set",
+      "archiveUrl": "https://opengameart.org/sites/default/files/greywyvern-cardset.zip",
+      "archiveSha256": "7209d0f9d9d5f2753bcb9d970dd7a45cd0fdd4e3f3af6d393b434eaffd7122f2",
+      "license": "Public Domain or BSD-3-Clause",
+      "author": "Brian Huisman (GreyWyvern)",
+      "assetPath": "holdout/sources/greywyvern"
+    }
+  ]
+}

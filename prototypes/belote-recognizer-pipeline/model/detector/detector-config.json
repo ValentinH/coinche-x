@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "architecture": "tiny-stride-4-center-and-box",
+  "license": "MIT",
+  "input": {
+    "name": "images",
+    "shape": [
+      "batch",
+      3,
+      384,
+      384
+    ],
+    "range": [
+      0,
+      1
+    ]
+  },
+  "outputs": {
+    "boxes": {
+      "name": "boxes",
+      "shape": [
+        "batch",
+        128,
+        4
+      ],
+      "format": "normalized-xyxy"
+    },
+    "scores": {
+      "name": "scores",
+      "shape": [
+        "batch",
+        128
+      ]
+    }
+  },
+  "decoder": {
+    "kind": "local-maximum-center-and-size",
+    "threshold": 0.85,
+    "localMaximumKernel": 7,
+    "nmsIou": 0.3,
+    "boxes": "normalized xyxy after center/offset/size decoding",
+    "scores": "sigmoid center probability"
+  },
+  "tiling": {
+    "tileSize": 960,
+    "overlap": 192
+  },
+  "minimumVisibleFraction": 0.9
+}

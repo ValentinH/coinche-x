@@ -1,0 +1,16 @@
+{
+  "architecture": "6957-parameter-stride-4-binary-segmentation",
+  "split": "andrew-tidey-validation",
+  "iouThreshold": 0.5,
+  "scene": {
+    "tp": 574,
+    "fp": 480,
+    "fn": 435,
+    "precision": 0.5445920303605313,
+    "recall": 0.5688800792864221,
+    "images": 32,
+    "falsePositivesPerImage": 15.0
+  },
+  "status": "rejected-before-holdout",
+  "reason": "Broad card-region masks produced oversized and merged boxes."
+}

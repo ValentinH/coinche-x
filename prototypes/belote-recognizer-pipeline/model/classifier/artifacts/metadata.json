@@ -1,0 +1,64 @@
+{
+  "architecture": "tiny-spatial-factorized-v2",
+  "input": {
+    "name": "input",
+    "shape": [
+      "batch",
+      3,
+      96,
+      96
+    ]
+  },
+  "model": {
+    "bytes": 1277982,
+    "opset": 17,
+    "path": "classifier.onnx",
+    "pytorchOnnxMaximumAbsoluteError": 9.5367431640625e-07,
+    "sha256": "d4c8654aa032c60a581d4e7c97f7aa47723b2d170e0f89c420285a318c6b3d84"
+  },
+  "outputs": {
+    "rank": {
+      "classes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "J",
+        "Q",
+        "K",
+        "A"
+      ],
+      "name": "rank_logits"
+    },
+    "suit": {
+      "classes": [
+        "clubs",
+        "diamonds",
+        "hearts",
+        "spades"
+      ],
+      "name": "suit_logits"
+    }
+  },
+  "parameterCount": 319004,
+  "runtime": {
+    "numpy": "1.26.4",
+    "onnx": "1.16.2",
+    "onnxruntime": "1.19.2",
+    "python": "3.9.6",
+    "torch": "2.2.2"
+  },
+  "schemaVersion": 1,
+  "training": {
+    "batchSize": 64,
+    "bestEpoch": 35,
+    "epochs": 40,
+    "holdoutUsed": false,
+    "learningRate": 0.002,
+    "seed": 20260730,
+    "selectionMetric": "Andrew validation card accuracy, then rank+suit accuracy",
+    "trainManifestSha256": "9091e9d49a972432676ab5738577db6e8156001c28923920375888170c07e8da",
+    "validationManifestSha256": "8483b240bfe3fa21665ee7b0612770bdd1cc9c2c629b511d261619b452e30c00",
+    "weightDecay": 0.0001
+  }
+}

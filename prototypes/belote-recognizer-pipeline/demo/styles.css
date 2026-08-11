@@ -1,0 +1,175 @@
+:root {
+  color: #eef4f1;
+  background: #101614;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 15% 0%, #183c36 0, transparent 35rem),
+    #101614;
+}
+
+main {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0 72px;
+}
+
+header {
+  max-width: 760px;
+}
+
+h1 {
+  margin: 6px 0 14px;
+  font-size: clamp(2.2rem, 7vw, 4.6rem);
+  line-height: 0.96;
+  letter-spacing: -0.055em;
+}
+
+h2,
+p {
+  margin-top: 0;
+}
+
+header p {
+  color: #b8c9c3;
+  line-height: 1.55;
+}
+
+.eyebrow {
+  color: #75e6d9;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 34px 0 18px;
+}
+
+.metrics article,
+.viewer,
+.contact,
+aside {
+  border: 1px solid #2b403a;
+  background: rgb(18 27 24 / 88%);
+  border-radius: 14px;
+}
+
+.metrics article {
+  min-width: 0;
+  padding: 14px 16px;
+}
+
+.metrics span {
+  display: block;
+  margin-bottom: 8px;
+  color: #91a59e;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.metrics strong {
+  display: block;
+  overflow: hidden;
+  color: #f7fbf9;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viewer {
+  overflow: hidden;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #2b403a;
+  color: #a9bbb5;
+  font-size: 0.82rem;
+}
+
+select {
+  margin-left: 8px;
+  border: 1px solid #3c554d;
+  border-radius: 7px;
+  color: inherit;
+  background: #17231f;
+  padding: 7px 10px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 0.34fr 0.66fr;
+  gap: 24px;
+  align-items: start;
+  margin-top: 18px;
+  padding: 20px;
+}
+
+.contact p,
+aside {
+  color: #9fb0aa;
+  line-height: 1.5;
+}
+
+.contact img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+aside {
+  margin-top: 18px;
+  padding: 14px 18px;
+  font-size: 0.88rem;
+}
+
+aside strong {
+  color: #eaf4f0;
+}
+
+@media (max-width: 760px) {
+  main {
+    padding-top: 32px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .toolbar,
+  .contact {
+    display: block;
+  }
+
+  #scene-meta {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .contact img {
+    margin-top: 18px;
+  }
+}

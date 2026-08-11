@@ -1,0 +1,4 @@
+generated/
+candidate-*.pt
+debug-*.jpg
+__pycache__/
